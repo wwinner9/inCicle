@@ -32,17 +32,17 @@ export default function Rightside(){
                                 <Widget name='Total' equival='23/106' percent='50%' size='100%' backColor='var(--oragen)'/>
                             </div>
                             <div className="bottomWidgets">
-                                <Miniwidget title='Projectos'>
+                                <Miniwidget title='Projectos' color='var(--blue)'>
                                     <li><p>Pendentes</p> <p>3</p></li> 
                                     <li><p>Pendentes</p> <p>3</p></li> 
                                     <li><p>Pendentes</p> <p>3</p></li> 
                                 </Miniwidget>
-                                <Miniwidget title='Actividades'>
+                                <Miniwidget title='Actividades' color='var(--green)'>
                                     <li><p>Pendentes</p> <p>3</p></li> 
                                     <li><p>Pendentes</p> <p>3</p></li> 
                                     <li><p>Pendentes</p> <p>3</p></li> 
                                 </Miniwidget>
-                                <Miniwidget title='Total'>
+                                <Miniwidget title='Total' color='var(--oragen)'>
                                     <li><p>Pendentes</p> <p>3</p></li> 
                                     <li><p>Pendentes</p> <p>3</p></li> 
                                     <li><p>Pendentes</p> <p>3</p></li> 

@@ -3,7 +3,7 @@
     flex-direction: row;
     background-color: var(--white);
     height: 3rem;
-    width: 96.2%;
+    width: 96%;
     margin-bottom: 10px;
     border-radius: 10px;
     padding: 5px 20px 0;
@@ -44,5 +44,4 @@
     background-color: var(--blue);
     top: 0; 
     left: 0;
-
 }
