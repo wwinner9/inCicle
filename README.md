@@ -8,6 +8,13 @@
 
 ![O Resultado do Projecto](/src/assets/prIncicle.png) 
 
+**Qualidade da Web Page** - 
+***Pagina Web Responsiva*** -
+***Semantica*** -
+***Boa Usuablidade*** -
+***Alinhamentes Cautelosamente usadas*** -
+***Ui/Ux no control das cores*** -
+
 ## 📚 Iniciando o Projecto
 
   **Yarn Start** - Para iniciar o Projecto
