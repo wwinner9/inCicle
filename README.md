@@ -1,5 +1,5 @@
 <h1 align="center">
-  📰<br>Projecto Coke-Zero
+  📰<br>Projecto InCicle Inc.
 </h1>
 
 <h4 align="center">
