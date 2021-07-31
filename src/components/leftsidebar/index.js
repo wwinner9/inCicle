@@ -6,7 +6,7 @@ export default function Leftside(){
     return(
         <div className='leftSideContainer'>
             <header>                
-                <img src={userImg} id='avatar' className="circleImg" alt="user avatar"/>              
+                <img src='https://portalrapmais.com/wp-content/uploads/2021/07/Juice-Wrld.jpg' id='avatar' className="circleImg" alt="user avatar"/>              
             </header>
             
             <section>
