@@ -1,0 +1,63 @@
+.leftSideContainer{
+    width: 100%; 
+    border-radius: 10px ;
+    background-color: var(--white);
+    height: 30rem;
+    position: relative;
+    z-index: 1;
+}
+
+/*setting Header*/
+.leftSideContainer header{
+    height: 13rem;
+    width: 100%; 
+    background: #000 url(../../assets/cover.jpg) no-repeat;
+    background-size: cover; 
+} 
+
+/*setting Avatar*/
+header #avatar{
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    top: 120px;
+    left: 25%;
+    z-index: 5;
+}
+ 
+.userInfo{  
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.userInfo a {
+    font-size: 1.5rem; 
+}
+
+.userInfo h4,p{
+    color: var(--grey);
+}
+
+.userInfo p{    
+    font-size: .8rem;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+footer >p{
+    font-size: 1rem;
+    letter-spacing: .05rem;
+}
+
+footer .otherInfo{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}

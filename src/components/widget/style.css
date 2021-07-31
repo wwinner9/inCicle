@@ -1,0 +1,18 @@
+.widget{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    border-radius: 9px;
+}
+
+.widget p:nth-child(1){ 
+    color: var(--white);
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+.widget p:nth-child(2){ 
+    color: var(--white); 
+    font-size: 1.3rem;
+    margin-top: 5px;
+}

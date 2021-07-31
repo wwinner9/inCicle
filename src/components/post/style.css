@@ -1,0 +1,111 @@
+.postContainer{
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 20px 20px 0;
+    
+
+}
+.postContainer header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.postContainer .postLeftSide{
+    display: flex;
+}
+
+.postLeftSide #posterImg{
+    height: 3rem;
+    width: 3rem;
+}
+
+.postLeftSide .posterInfo{
+    margin-left: 10px;
+    padding-top:5px ;
+}
+
+.postLeftSide .posterInfo .timeInfo{
+    display: flex;
+    font-size:.8rem ; 
+}
+
+.postLeftSide .posterInfo p{
+    margin-right: 10px; 
+}
+
+.postRightSide {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/*The post content*/
+.postContent{
+    width: 100%; 
+    margin-bottom: 10px;
+}
+
+#bottomPost .reactionInfo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: .8em;
+    margin-bottom: 10px;
+}
+
+#bottomPost .reactionInfo .leftReactionInfo{
+    display: flex; 
+}
+
+#bottomPost .reactionInfo .leftReactionInfo p{
+    margin-left: 10px;
+    
+}
+
+.leftReactionInfo #likes{
+    font-weight: 900;
+
+}
+
+#bottomPost .reactionInfo .rightReactionInfo{
+    display: flex; 
+}
+
+#bottomPost .reactionInfo .rightReactionInfo >p{
+    margin-right:8px ;
+}
+
+.postActions {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border: 1px solid var(--backGrey); 
+    border-right: none;
+    border-left: none;
+    margin-bottom: 15px;
+    padding: 5px 0;
+
+}
+
+.postActions .btnReaction{
+    width: 13rem;
+    height: 1.9rem;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background .5s;
+    margin-right: 10px; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.postActions  p{ 
+    margin: 4px 5px 0 0;
+}
+
+.postActions .btnReaction:hover{ 
+    background-color: var(--btnHover);
+}

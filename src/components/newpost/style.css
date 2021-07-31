@@ -1,0 +1,39 @@
+.newPostContainer{
+    width: 100%;
+    background-color: var(--white);
+    padding: 8px 0 0 0;
+    border-radius: 10px;
+}
+
+.newPostContainer a{
+    margin-top: 20px;
+    font-size: 1.4rem;
+    color: var(--otherGrey);
+}
+
+.newPostContainer header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 10px;
+
+    
+}
+
+.newPostContainer #textAreaPost{
+    height: 70px;
+    width: 80%;
+    border: none;
+    padding:20px ;
+
+}
+
+.newPostContainer .bottomNewPost{
+    height: 2rem;
+    background-color: var(--backGrey);
+    border-radius:10px ;
+    padding: 8px 20px;
+}
+
+.bottomNewPost strong{
+    color: var(--otherBluelegend);
+}

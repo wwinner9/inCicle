@@ -1,0 +1,48 @@
+.menuContainer{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--white);
+    height: 3rem;
+    width: 96.2%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 5px 20px 0;
+    position: relative;
+}
+
+.menuContainer nav{
+    width: 100%;
+
+}
+
+#menuAvatar{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.menuContainer ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.menuContainer ul li {
+    margin-top: 9px; 
+    cursor: pointer; 
+    transition: background .5s;
+}
+
+.menuContainer ul li :hover{ 
+    color: var(--oragen);
+}
+
+.menuContainer ul li a::after{ 
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: var(--blue);
+    top: 0; 
+    left: 0;
+
+}

@@ -1,0 +1,41 @@
+.cardContainer{
+    background-color: var(--white);
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.cardContainer article header{
+    text-align: center; 
+    margin: .8rem 0;
+    
+}
+
+.dateDiv{ 
+    background-color: var(--scrollBarColor);
+    width: 100%;
+    margin-bottom: 20px;
+}
+.dateDiv p{  
+    padding: 3px 30px;
+    font-size: .9rem;
+}
+
+.cardContent{
+    padding: 0 15px;
+}
+
+.activityProject{ 
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.activityProject .upWidget{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+
+
