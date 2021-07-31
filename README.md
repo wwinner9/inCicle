@@ -6,7 +6,7 @@
   Projecto baseado no design Web dada pela <strong>InCicle</strong>
 </h4>
 
-![O Resultado do Projecto](./assets/prIncicle.png) 
+![O Resultado do Projecto](/assets/prIncicle.png) 
 
 ## 📚 Iniciando o Projecto
 
