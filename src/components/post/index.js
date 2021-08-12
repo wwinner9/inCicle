@@ -51,7 +51,7 @@ export default function Post(){
        <div className="postContainer">
             <header> 
                 <div className="postLeftSide">
-                    <img src='https://portalpopline.com.br/wp-content/uploads/2021/03/rihanna-fenty-beauty.jpg' id='posterImg' className="circleImg" alt=""/>
+                    <img src='https://resizing.flixster.com/kbPDj6apEyATyhgAGKO55GrN-os=/506x652/v2/https://flxt.tmsimg.com/v9/AllPhotos/953916/953916_v9_bd.jpg' id='posterImg' className="circleImg" alt=""/>
                     <div className="posterInfo">
                         <a href="#a" id='posterName'><h4 >Patricia Santos</h4></a> 
                         <div className="timeInfo">

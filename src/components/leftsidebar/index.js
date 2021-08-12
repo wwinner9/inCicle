@@ -1,12 +1,17 @@
+import react ,{useState, useEffect} from 'react'
 import './style.css'
 import {AiOutlineBank,AiOutlineCodeSandbox,AiOutlineEnvironment} from 'react-icons/ai'
 import userImg from '../../assets/juicy1.jpg'
 
 export default function Leftside(){
+
+
+
+
     return(
         <div className='leftSideContainer'>
             <header>                
-                <img src='https://portalrapmais.com/wp-content/uploads/2021/07/Juice-Wrld.jpg' id='avatar' className="circleImg" alt="user avatar"/>              
+                <img src={userImg} id='avatar' className="circleImg" alt="user avatar"/>              
             </header>
             
             <section>
